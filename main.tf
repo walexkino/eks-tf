@@ -13,6 +13,7 @@ terraform {
 
 }
 
+
 provider "aws" {
   region  = var.region
 #   shared_credentials_files = [ "/Users/cmadu/.aws/credentials" ]
@@ -33,3 +34,4 @@ module "cluster" {
   instance_types    = var.instance_types
   capacity_type     = var.capacity_type
 }
+  
