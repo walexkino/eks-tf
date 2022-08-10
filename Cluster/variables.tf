@@ -1,3 +1,4 @@
+
 variable "subnet" {
     type = list
 }
@@ -38,3 +39,4 @@ variable "node_role_name" {
 variable "vpc_id" {
   type = string
 }
+
